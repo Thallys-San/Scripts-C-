@@ -6,7 +6,6 @@ using namespace std;
 int main()
 {
     int i, num, x;
-    
     cout << "Escolha uma opcao de idioma: ";
     for (i=1; i<=x2; i++) {
         num= i%2;
