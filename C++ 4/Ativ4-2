@@ -27,6 +27,5 @@ int main()
     cout << "O resultado da divisao e: "<< calculadora;
     break;
 }
-
     return 0;
 }
