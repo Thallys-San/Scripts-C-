@@ -1,9 +1,7 @@
 #include <iostream>
-#include <cmath> 
-
+#include <cmath> 
 using namespace std;
-
-
+
 double raizq(double numero) {
     return sqrt(numero);
 }
@@ -11,14 +9,14 @@ double raizq(double numero) {
 int main() {
     double numero;
 
-    cout << "Digite um número: ";
+    cout << "Digite um nÃºmero: ";
     cin >> numero;
 
     if (numero < 0) {
-        cout << "Não é possível calcular a raiz quadrada de um número negativo.\n";
+        cout << "NÃ£o Ã© possÃ­vel calcular a raiz quadrada de um nÃºmero negativo.\n";
     } else {
         double resultado = raizq(numero);
-        cout << "A raiz quadrada de " << numero << " é " << resultado << ".\n";
+        cout << "A raiz quadrada de " << numero << " Ã© " << resultado << ".\n";
     }
 
     return 0;
