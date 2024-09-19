@@ -29,13 +29,13 @@ int main()
     int vetor[] = {5,6,2,4,3,1};
     int tamanho = sizeof(vetor) / sizeof(int);
 
-    printf("Vetor antes da ordenação: ");
+    printf("Vetor antes da ordenaÃ§Ã£o: ");
     mostrarVetor(vetor, tamanho);
     printf("\n");
 
     ordenacrescente(vetor, tamanho);
 
-    printf("Vetor depois da ordenação (crescente): ");
+    printf("Vetor depois da ordenaÃ§Ã£o (crescente): ");
     mostrarVetor(vetor, tamanho);
     printf("\n");
 
