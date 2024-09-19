@@ -5,7 +5,7 @@ int main() {
     int menor;
     int vetor[5] = {10, 20, 30, 40, 50};
     menor = vetor[0];
-    cout << "Os valores são: ";
+    cout << "Os valores sÃ£o: ";
     for (int i = 0; i < 5; i++) {
     cout << vetor[i] << " ";
         
@@ -13,7 +13,7 @@ int main() {
     menor = vetor[i];
     }
     }
-    cout << "O menor valor é: " << menor;
+    cout << "O menor valor Ã©: " << menor;
 
     return 0;
 }
